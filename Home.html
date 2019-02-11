@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check upper case process</title>
+</head>
+<body>
+
+<script>
+   // var str = "My name is Nam"
+   var ten1="Nguyen van Nam"
+
+    function isFirstLetterUpperCase(str) {
+        regexp = /^[A-Z]/;
+       // alert(regexp.test(str));
+        if (regexp.test(str)) {
+            console.log("String's first character is uppercase");
+        } else {
+            console.log("String's first character is not uppercase");
+        }
+    }
+  // isFirstLetterUpperCase('Abcd');
+   isFirstLetterUpperCase(ten1);
+
+</script>
+</body>
+</html>
